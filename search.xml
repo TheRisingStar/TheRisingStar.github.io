@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[c#字符串操作]]></title>
-    <url>%2F2019%2F07%2F11%2Fc%23%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%2F</url>
+    <url>%2F2019%2F07%2F11%2FCsharp%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%2F</url>
     <content type="text"><![CDATA[String s1=” ab cde “; String s2; String s3=””; String s4=String.empty; int len=s1.length; s2=s1.trim(); s2=s1.Indexof(‘a’); s2=s1.Insert(0,”xx”); s2=s1.remove(0,2)； s2=s1.Replace(‘a’,’b’); String[] tmp=s1.Split(‘ ‘); s2=s1.Substring(0,4); s2=String.Format(“name:{0},sex:{1}”,2,3);]]></content>
       <categories>
         <category>C#</category>
