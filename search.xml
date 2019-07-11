@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[C#数组]]></title>
+    <url>%2F2019%2F07%2F11%2FC%23%E6%95%B0%E7%BB%84%2F</url>
+    <content type="text"><![CDATA[数组的声明和创建 int[] a=new int[5]; int[] a;a=new int[5]; int[] a=new int[] {1,2,3}; int[] a;a=new int[] {1,2,3}; int[] a={1,2,3};]]></content>
+      <categories>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[c#字符串操作]]></title>
-    <url>%2F2019%2F07%2F11%2FCsharp%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%2F</url>
-    <content type="text"><![CDATA[C#字符串操作12345678910111213String s1=&quot; ab cde &quot;;String s2;String s3=&quot;&quot;;String s4=String.empty;int len=s1.length;s2=s1.trim();s2=s1.Indexof(&apos;a&apos;);s2=s1.Insert(0,&quot;xx&quot;);s2=s1.remove(0,2)；s2=s1.Replace(&apos;a&apos;,&apos;b&apos;);String[] tmp=s1.Split(&apos; &apos;);s2=s1.Substring(0,4);s2=String.Format(&quot;name:&#123;0&#125;,sex:&#123;1&#125;&quot;,2,3);]]></content>
+    <url>%2F2019%2F07%2F11%2FC%23%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[C#字符串操作常用代码123456789101112131415String s1=&quot; ab cde &quot;;String s2;String s3=&quot;&quot;;String s4=String.empty;int len=s1.length;s1=s2+s3;s2=len.ToString();s2=s1.trim();s2=s1.Indexof(&apos;a&apos;);s2=s1.Insert(0,&quot;xx&quot;);s2=s1.remove(0,2)；s2=s1.Replace(&apos;a&apos;,&apos;b&apos;);String[] tmp=s1.Split(&apos; &apos;);s2=s1.Substring(0,4);s2=String.Format(&quot;name:&#123;0&#125;,sex:&#123;1&#125;&quot;,2,3);]]></content>
       <categories>
         <category>C#</category>
       </categories>
