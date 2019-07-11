@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="C#,">
 
 
 
@@ -79,14 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index-1.html">
+<meta name="description" content="C#字符串操作常用代码123456789101112131415String s1=&amp;quot; a b cde &amp;quot;;String s2;String s3=&amp;quot;&amp;quot;;String s4=String.empty;int len=s1.length;s1=s2+s3;s2=len.ToString();s2=s1.trim();s2=s1.Indexof(&amp;apos;a&amp;">
+<meta name="keywords" content="C#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSharp字符串操作">
+<meta property="og:url" content="http://yoursite.com/2019/07/11/Sharp字符串操作/index.html">
 <meta property="og:site_name" content="zhujiahua">
+<meta property="og:description" content="C#字符串操作常用代码123456789101112131415String s1=&amp;quot; a b cde &amp;quot;;String s2;String s3=&amp;quot;&amp;quot;;String s4=String.empty;int len=s1.length;s1=s2+s3;s2=len.ToString();s2=s1.trim();s2=s1.Indexof(&amp;apos;a&amp;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-07T01:05:17.051Z">
+<meta property="og:updated_time" content="2019-07-11T13:33:18.698Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="CSharp字符串操作">
+<meta name="twitter:description" content="C#字符串操作常用代码123456789101112131415String s1=&amp;quot; a b cde &amp;quot;;String s2;String s3=&amp;quot;&amp;quot;;String s4=String.empty;int len=s1.length;s1=s2+s3;s2=len.ToString();s2=s1.trim();s2=s1.Indexof(&amp;apos;a&amp;">
 
 
 
@@ -116,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/index-1.html">
+  <link rel="canonical" href="http://yoursite.com/2019/07/11/Sharp字符串操作/">
 
 
 
 
 
-  <title>categories | zhujiahua</title>
+  <title>CSharp字符串操作 | zhujiahua</title>
   
 
 
@@ -282,33 +286,165 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/11/Sharp字符串操作/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zhujiahua">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/upload/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zhujiahua">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">categories</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">CSharp字符串操作</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-11T20:06:11+08:00">
+                2019-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-      </div>
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/C/" itemprop="url" rel="index">
+                    <span itemprop="name">C#</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h1 id="C-字符串操作常用代码"><a href="#C-字符串操作常用代码" class="headerlink" title="C#字符串操作常用代码"></a>C#字符串操作常用代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">String s1=&quot; a b cde &quot;;</span><br><span class="line">String s2;</span><br><span class="line">String s3=&quot;&quot;;</span><br><span class="line">String s4=String.empty;</span><br><span class="line">int len=s1.length;</span><br><span class="line">s1=s2+s3;</span><br><span class="line">s2=len.ToString();</span><br><span class="line">s2=s1.trim();</span><br><span class="line">s2=s1.Indexof(&apos;a&apos;);</span><br><span class="line">s2=s1.Insert(0,&quot;xx&quot;);</span><br><span class="line">s2=s1.remove(0,2)；</span><br><span class="line">s2=s1.Replace(&apos;a&apos;,&apos;b&apos;);</span><br><span class="line">String[] tmp=s1.Split(&apos; &apos;);</span><br><span class="line">s2=s1.Substring(0,4);</span><br><span class="line">s2=String.Format(&quot;name:&#123;0&#125;,sex:&#123;1&#125;&quot;,2,3);</span><br></pre></td></tr></table></figure>
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/C/" rel="tag"># C#</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/11/CSharp字符串操作/" rel="prev" title="CSharp字符串操作">
+                CSharp字符串操作 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -341,8 +477,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -434,6 +579,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C-字符串操作常用代码"><span class="nav-number">1.</span> <span class="nav-text">C#字符串操作常用代码</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
